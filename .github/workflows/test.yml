@@ -1,7 +1,6 @@
 name: Demo Supply Chain Attack
 
 on: [push]
-
 jobs:
   simulate-attack:
     runs-on: ubuntu-latest
