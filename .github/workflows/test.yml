@@ -1,0 +1,13 @@
+name: Demo Supply Chain Attack
+
+on: [push]
+
+jobs:
+  simulate-attack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Malicious Action
+        uses: mohammad-nayer/echo-secrets-action@main
