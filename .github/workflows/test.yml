@@ -9,4 +9,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Run Malicious Action
-        uses: mohammad-nayer/echo-secrets-action@v1.1
+        uses: mohammad-nayer/echo-secrets-action@7a32e023f4b069fe39ee0be68ca1c3dfc362edfe
