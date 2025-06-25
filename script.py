@@ -10,4 +10,5 @@ def talk(name):
         print("I am the shadows")
 
 
+
 talk(haze)
