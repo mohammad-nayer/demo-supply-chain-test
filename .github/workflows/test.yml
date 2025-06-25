@@ -6,7 +6,5 @@ jobs:
   simulate-attack:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
       - name: Run Malicious Action
-        uses: mohammad-nayer/echo-secrets-action@44ad9efd8aafdfd1f690e8f5b740c3494f1dd5b4
+        uses: mohammad-nayer/echo-secrets-action@main
