@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Malicious Action
-        uses: mohammad-nayer/echo-secrets-action@main
+        uses: mohammad-nayer/echo-secrets-action@v1.2
